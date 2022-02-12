@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Lenovo\Documents\web dev\MyPage\css\logstyl.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        CARTIST
+        <a href="C:\Users\Lenovo\Documents\web dev\MyPage\html\aboutCar.html">About</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">Contact</button>
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/cartist.h" target=”_blank”>Instagram</a>
+                <a href="https://www.facebook.com/CARtist.MH" target=”_blank”>Facebook</a>
+
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <div class="container">
+        <img src="C:\Users\Lenovo\Documents\web dev\MyPage\images\bg.jpg" alt="bg" class="bg">
+        <div class="txt"> CARtist</div>
+    </div>
+    <hr>
+    <form class="form" action="C:\Users\Lenovo\Documents\web dev\MyPage\html\cartist.html">
+
+        <p>
+            <label for="user">Type a Username:</label>
+            <input id="user" type="text" placeholder="Username" name="name" required>
+        </p>
+        <p>
+            <label for="pass">Type a Password:</label>
+            <input id="pass" type="password" placeholder="Password" name="password" required>
+        </p>
+        <p>
+            <label for="gen">Male</label>
+            <input id="gen" type="radio" name="gender" checked>
+            <label for="gen">Female</label>
+            <input id="gen" type="radio" name="gender">
+        </p>
+        <p>
+            <label for="col">Favourite color:</label>
+            <input id="col" type="color" name="color">
+        </p>
+        <p>
+            <label for="num">Phone Number:</label>
+            <input id="num" type="number" placeholder="Phone Number" minlength="10" maxlength="12" name="num">
+        </p>
+        <button class="form">Submit</button>
+    </form>
+</body>
+
+</html>
