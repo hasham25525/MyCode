@@ -31,3 +31,9 @@ let arr = [22, 33, 44, 55, 66, 77];
 // Date
 let myDate = new Date();
 console.log(myDate.getDate());
+
+//DOM Manupulation
+let elem = document.getElementsByClassName('addclass');
+console.log(elem)
+elem[0].classList.add('para')
+console.log(elem.innerHTML);
