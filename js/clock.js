@@ -4,6 +4,19 @@ function MyCLock() {
     let min = clock.getMinutes();
     let sec = clock.getSeconds();
     let a = "AM";
+
+    if (hr < 10) {
+        hr = "0" + hr;
+    }
+    if (min < 10) {
+        min = "0" + min;
+    }
+    if (sec < 10) {
+        sec = "0" + sec;
+    }
+
+
+    //AM, PM
     if (hr == 0) {
         hr = 12;
     }
