@@ -113,3 +113,9 @@ body{
         background-color: #075;
         font-size: 70px;
       }
+      
+      .clock{
+        background-color: #f1f1f1;
+        color: #3e8e41;
+        font-size: 120px;
+      }
